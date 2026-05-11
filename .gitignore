@@ -1,2 +1,5 @@
 .env
 node_modules/
+server/database/chat.db
+server/database/*.db
+*.db
