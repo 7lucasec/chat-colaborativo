@@ -2,13 +2,11 @@
 
 ## Descripción del proyecto
 
-Este proyecto consiste en el desarrollo de un sistema de chat colaborativo en tiempo real, orientado a permitir la comunicación simultánea entre varios usuarios conectados desde una aplicación web.
+Este proyecto consiste en el desarrollo de un sistema de chat colaborativo en tiempo real mediante el uso de WebSocket, permitiendo la comunicación simultánea entre múltiples usuarios desde una aplicación web.
 
-El sistema utiliza el protocolo **WebSocket** como medio principal de comunicación, permitiendo una conexión bidireccional y persistente entre el cliente y el servidor. Esto permite que los mensajes enviados por un usuario sean recibidos instantáneamente por los demás usuarios conectados, sin necesidad de recargar la página ni utilizar técnicas como polling o long-polling.
+El sistema permite enviar y recibir mensajes instantáneamente, visualizar el historial de conversación y notificar cuando un usuario entra o sale del chat.
 
-La aplicación cuenta con una interfaz web donde los usuarios pueden ingresar al chat, enviar mensajes, visualizar el historial de conversación y recibir notificaciones cuando otros usuarios se conectan o desconectan.
-
-Además, el sistema implementa autenticación mediante **Google OAuth** y acceso como invitado. En caso de ingresar como invitado, se puede asignar un nombre temporal al usuario.
+Además, se implementó autenticación mediante Google OAuth y acceso como invitado con asignación automática de nombre temporal.
 
 ## Objetivo
 
