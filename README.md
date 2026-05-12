@@ -69,55 +69,19 @@ chat-colaborativo/
 ├── package-lock.json
 └── railway.json                # Configuración de Railway
 ```
-## Instalación local
+## Instalación y acceso al proyecto
 
-1. Descargar o clonar el repositorio desde GitHub.
-2. Ingresar a la carpeta `server`.
+El sistema fue desarrollado utilizando Node.js, Express y WebSocket para permitir la comunicación en tiempo real entre múltiples usuarios conectados.
 
-```bash
-cd server
-```
+Debido a la implementación de autenticación mediante Google OAuth y el uso de variables de entorno, la ejecución correcta del proyecto requiere una configuración previa del entorno local.
 
-3. Instalar las dependencias necesarias del proyecto.
-   
-```bash
-npm install
-```
+Por esta razón, el proyecto se encuentra desplegado en Railway, permitiendo acceder y probar todas sus funcionalidades directamente desde el navegador sin necesidad de realizar configuraciones adicionales.
 
-4. Ejecutar el servidor.
-
-```bash
-node server.js
-```
-
-5. Abrir el navegador en la siguiente dirección:
-
-```bash
-http://localhost:3000
-```
-
-6. Ingresar al chat mediante Google o como invitado.
-
-   Nota: Para utilizar Google OAuth de forma local es necesario configurar las variables de entorno correspondientes.
-
-## Deploy
-
-El proyecto se encuentra desplegado en Railway y puede accederse desde el siguiente enlace:
+Enlace del proyecto desplegado:
 
 ```bash
 https://chat-colaborativo-production-d40f.up.railway.app/
 ```
-
-## Funcionalidades
-
-- Comunicación en tiempo real mediante WebSocket.
-- Envío y recepción instantánea de mensajes.
-- Notificaciones cuando un usuario entra o sale del chat.
-- Historial visible de mensajes.
-- Autenticación mediante Google OAuth.
-- Acceso como invitado.
-- Asignación automática de nombre temporal para invitados.
-- Interfaz web interactiva.
 
 ## Integrantes
 
