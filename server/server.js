@@ -103,6 +103,18 @@ app.post("/leave", (req, res) => {
     res.sendStatus(200);
 });
 
+app.get("/api/mensajes", async (req, res) => {
+    try {
+        const mensajes = await obtenerUltimosMensajes(50);
+        res.json(mensajes);
+    } catch (error) {
+        res.status(500).json({
+            error: "Error al obtener mensajes",
+            detalle: error.message
+        });
+    }
+});
+
 app.get("/", (req, res) =>
     res.sendFile(path.join(__dirname, "..", "client", "index.html"))
 );
