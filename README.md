@@ -45,3 +45,26 @@ Desarrollar una funcionalidad básica de chat colaborativo en tiempo real entre 
 ### Herramientas y despliegue
 - GitHub
 - Railway
+
+## Estructura del proyecto
+
+```bash
+chat-colaborativo/
+│
+├── client/                     # Archivos del frontend
+│   ├── index.html              # Estructura principal de la interfaz
+│   ├── script.js               # Lógica del cliente y WebSocket
+│   └── styles.css              # Estilos de la aplicación
+│
+├── server/                     # Backend del sistema
+│   ├── auth.js                 # Configuración de autenticación
+│   ├── server.js               # Servidor principal y WebSocket
+│   │
+│   └── database/               # Manejo de base de datos
+│
+├── .gitattributes
+├── .gitignore
+├── README.md                   # Documentación del proyecto
+├── package.json                # Dependencias y scripts
+├── package-lock.json
+└── railway.json                # Configuración de Railway
