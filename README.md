@@ -1,4 +1,4 @@
-# Chat Colaborativo en Tiempo Real con WebSocket
+# InteractChat Colaborativo en Tiempo Real con WebSocket
 
 ## Descripción del proyecto
 
