@@ -112,8 +112,8 @@ https://chat-colaborativo-production-d40f.up.railway.app/
 
 - Comunicación en tiempo real mediante WebSocket.
 - Envío y recepción instantánea de mensajes.
-- Historial visible de mensajes.
 - Notificaciones cuando un usuario entra o sale del chat.
+- Historial visible de mensajes.
 - Autenticación mediante Google OAuth.
 - Acceso como invitado.
 - Asignación automática de nombre temporal para invitados.
