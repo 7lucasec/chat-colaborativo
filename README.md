@@ -68,3 +68,65 @@ chat-colaborativo/
 ├── package.json                # Dependencias y scripts
 ├── package-lock.json
 └── railway.json                # Configuración de Railway
+```
+## Instalación local
+
+1. Descargar o clonar el repositorio desde GitHub.
+2. Ingresar a la carpeta `server`.
+
+```bash
+cd server
+```
+
+3. Instalar las dependencias necesarias del proyecto.
+   
+```bash
+npm install
+```
+
+4. Ejecutar el servidor.
+
+```bash
+node server.js
+```
+
+5. Abrir el navegador en la siguiente dirección:
+
+```bash
+http://localhost:3000
+```
+
+6. Ingresar al chat mediante Google o como invitado.
+
+   Nota: Para utilizar Google OAuth de forma local es necesario configurar las variables de entorno correspondientes.
+
+## Deploy
+
+El proyecto se encuentra desplegado en Railway y puede accederse desde el siguiente enlace:
+
+```bash
+https://chat-colaborativo-production-d40f.up.railway.app/
+```
+
+## Funcionalidades
+
+- Comunicación en tiempo real mediante WebSocket.
+- Envío y recepción instantánea de mensajes.
+- Historial visible de mensajes.
+- Notificaciones cuando un usuario entra o sale del chat.
+- Autenticación mediante Google OAuth.
+- Acceso como invitado.
+- Asignación automática de nombre temporal para invitados.
+- Interfaz web interactiva.
+
+## Integrantes
+
+### Grupo 26
+
+- Apaza Arroyo Micaela Ruth
+- Choque Flores Fidel
+- Cusi Lucas Estrella Celeste
+- Fuentes Soto Roger Adrian
+- Pérez Sánchez Carlos Enrique
+- Sandagorda Salvatierra Emerson Deyvis
+- Yucra Tovar Andrea Rebeca
